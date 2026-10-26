@@ -1,11 +1,13 @@
 import './App.css'
+import Patientloginpage from './Compenents/Patientloginpage'
 
 function App() {
 
   return (
     <>
-      <h1>Hello, React!</h1>
+      <Patientloginpage/>
     </>
+    
   )
 }
 
