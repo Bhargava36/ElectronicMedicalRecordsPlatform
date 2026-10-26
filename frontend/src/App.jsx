@@ -1,4 +1,5 @@
 import './App.css'
+import Patientdashboard from './Compenents/Patientdashboard'
 import Patientloginpage from './Compenents/Patientloginpage'
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
   return (
     <>
       <Patientloginpage/>
+      <Patientdashboard/>
     </>
     
   )
