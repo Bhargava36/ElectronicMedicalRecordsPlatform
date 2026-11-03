@@ -24,9 +24,9 @@ function Patientloginpage() {
 
         {/* Logo */}
         <div className="text-center mb-6">
-          <div className="text-4xl text-teal-600">✚</div>
-          <h2 className="text-2xl font-bold text-teal-700">
-            CareSync EMR
+          <div className="text-4xl text-violet-700">✚</div>
+          <h2 className="text-2xl font-bold text-violet-700">
+           Dhanavantara
           </h2>
           <p className="text-sm text-gray-500">
             Electronic Medical Records Platform
@@ -78,7 +78,7 @@ function Patientloginpage() {
             <button
               type="button"
               onClick={() => setShowPassword(!showPassword)}
-              className="absolute right-3 top-3 text-teal-700 font-medium"
+              className="absolute right-3 top-3 text-violet-700 font-medium"
             >
               {showPassword ? "Hide" : "Show"}
             </button>
@@ -92,7 +92,7 @@ function Patientloginpage() {
                 type="checkbox"
                 checked={rememberMe}
                 onChange={(e) => setRememberMe(e.target.checked)}
-                className="accent-teal-600"
+                className="accent-violet-600"
               />
               Remember me
             </label>
@@ -102,17 +102,16 @@ function Patientloginpage() {
               onClick={() =>
                 setMessage("Please connect your password reset page.")
               }
-              className="text-teal-700 hover:underline"
+              className="text-violet-700 hover:underline"
             >
               Forgot Password?
             </button>
 
           </div>
-
           {/* Login Button */}
           <button
             type="submit"
-            className="w-full bg-teal-600 text-white p-3 rounded-lg font-semibold hover:bg-teal-700"
+            className="w-full bg-violet-700 text-white p-3 rounded-lg font-semibold hover:bg-violet-700"
           >
             Login
           </button>
@@ -134,7 +133,7 @@ function Patientloginpage() {
             onClick={() =>
               setMessage("Please connect your registration page.")
             }
-            className="text-teal-700 font-semibold hover:underline"
+            className="text-violet-700 font-semibold hover:underline"
           >
             Create Account
           </button>
@@ -150,7 +149,7 @@ function Patientloginpage() {
             Need help?{" "}
             <a
               href="mailto:support@example.com"
-              className="text-teal-700 hover:underline"
+              className="text-violet-700 hover:underline"
             >
               Help &amp; Support
             </a>
